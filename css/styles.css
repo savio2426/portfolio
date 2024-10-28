@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #62e2d8;
+    color: rgba(25, 20, 17, 0.99);
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: rgb(241, 227, 227);
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.navbar ul li a:hover{
+    color: chocolate;
+}
+
+.hero {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.about {
+    padding: 50px 0;
+    background-color: #fff;
+     text-align :center;
+    
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.profile-img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.about-text h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-text h4 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #33ecca;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.line 
+{background-color: #fffa4f;
+
+}

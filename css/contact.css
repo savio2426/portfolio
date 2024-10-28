@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(#fff,#54c1bd);
+
+    
+    color: rgb(241, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 700px;
+    }
+    .navbar ul {
+        list-style-type: none;
+    }
+    
+    .navbar ul li {
+        display: inline;
+        margin-left: 20px;
+    }
+    
+    .navbar ul li a {
+        color: rgba(4, 3, 12, 0.919);
+        text-decoration: none;
+        font-size: 25px;
+    }
+    
+
+.contact-card {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 60vh;
+   /* font-family: 'Times New Roman', Times, serif;*/
+   
+   
+}
+
+.contact-card h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #666;
+    padding-bottom: 50px;
+    
+}
+
+.contact-item img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.contact-item p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+.map{
+    padding-left: 90px;
+    
+}
+

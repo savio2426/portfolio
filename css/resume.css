@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(#fff,#54c1bd);
+
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: rgba(22, 9, 212, 0.919);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.left-column {
+    background-color: #41e1cf;
+    padding: 30px;
+    width: 35%;
+    color: #fff;
+}
+
+.right-column {
+    padding: 30px;
+    width: 65%;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #d3a59b;
+}
+
+section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d3a59b;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.objective p, .contact-info p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.right-column h3 {
+    font-size: 18px;
+    color: #3a4b5c;
+    margin-bottom: 15px;
+}
+
+.right-column ul, .right-column p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.right-column li {
+    margin-bottom: 8px;
+}
